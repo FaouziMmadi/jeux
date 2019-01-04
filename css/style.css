@@ -40,16 +40,24 @@ body {
 #btn {
   height: 120px;
   min-width: 120px;
-  border-radius: 60px;
-  border: 1px solid black;
+  border-radius:60px;
+  border: 3px solid black;
   transition: 0.7s ease;
+  top: 100px;
+  position: relative;
 }
 
-h1, p {
+h1 {
   text-align: center;
-  padding-top: 20px;
-  font-size: 20px;
+  padding-top: 50px;
+  font-size: 50px;
 }
+
+p {
+  padding-top: 50px;
+  font-size: 35px;
+}
+
 
 #container1 {
   /*ecran 2*/
@@ -64,6 +72,13 @@ h2 {
   padding-top: 20px;
   font-size: 20px;
   display: inline-block;
+}
+
+#lettre {
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  font-size: 80px;
 }
 
 #container1 .life .plein{

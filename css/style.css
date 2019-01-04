@@ -1,0 +1,76 @@
+/* ------RESET------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+
+/*,ol, ul, li*/
+  {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Jeux javascript/image/paysage.png");
+}
+
+#container {
+  /*ecran 1*/
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.custom {
+  border-radius: 15px;
+  padding-top: 20px;
+}
+
+/* bouton demarrer*/
+#btn {
+  height: 120px;
+  min-width: 120px;
+  border-radius: 60px;
+  border: 1px solid black;
+  transition: 0.7s ease;
+}
+
+h1, p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#container1 {
+  /*ecran 2*/
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+#container1 .life .plein{
+font-size: 30px;
+}
+
+#container1 .life .vide {
+  display: none;
+  font-size: 30px;
+}
